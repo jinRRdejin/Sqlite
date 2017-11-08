@@ -1,0 +1,62 @@
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+<LinearLayout 
+    android:id="@+id/ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/creat_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="creatDB"
+        android:text="创建数据库" />
+
+    <Button
+        android:id="@+id/insert_dd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClick"
+        android:layout_below="@+id/button1"
+        android:text="插入数据" />
+    <Button
+        android:id="@+id/delect_dd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:onClick="onClick"
+        android:layout_below="@+id/button1"
+        android:text="删除数据" />
+     <Button
+        android:id="@+id/modefy_dd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClick"
+        android:layout_below="@+id/button1"
+        android:text="修改数据" />
+
+     <Button
+         android:id="@+id/api_update"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="API修改数据" />
+
+     <Button
+         android:id="@+id/api_insert"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="API插入数据" />
+      <Button
+         android:id="@+id/api_delect"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="API删除数据" />
+ </LinearLayout>
+</LinearLayout>
